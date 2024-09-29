@@ -3,11 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Página inicial sobre comandos Git.">
     <link rel="stylesheet" href="styles.css">
     <title>Git Home</title>
 </head>
 <body>
-    
+    <header>
+        <h1 class="git-home-title">Git Home</h1>
+        <h2 class="git-home-subtitle">Aqui você encontra métodos para utilizar os comandos Git</h2>
+    </header>
+
+    <section>
+        <input id="campoPesquisa" placeholder="Digite o comando que deseja saber mais">
+        <button onclick="pesquisar()">Pesquisar</button>
+    </section>
+
+    <section class="resultados-pesquisas"
+        id="resultadosDaPesquisa">
+    </section>
+
+    <footer class="ass">
+        <p>2024 - devSchneider. Todos os direitos reservados.</p>
+        <p> Entre em contato pelo e-mail:joaoguischneiders@gmail.com</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="dados.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
