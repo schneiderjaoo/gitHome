@@ -1,1 +1,1 @@
-a
+Sempre gostei muito dos comando do git, para controle de versionamento e organização dos repositórios, aí pensei em praticar um pouco sobre o que já havia feito uma vez só de de outra forma aí tive a ideia de fazer uma pesquisa dos comandos git, que podemos chamar de GitHome.
